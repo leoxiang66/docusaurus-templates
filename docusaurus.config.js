@@ -9,8 +9,8 @@ const config = {
   title: "Text-to-Music Generation",
   tagline:
     "Text2Music is a virtual composer that creates style-specific music based on user-defined prompts.",
-  url: "https://your-docusaurus-test-site.com",
-  baseUrl: "/",
+  url: "https://nlp-guild.github.io",
+  baseUrl: "/text2music",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/logo.png",
