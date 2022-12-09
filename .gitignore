@@ -2,6 +2,7 @@
 /node_modules
 
 # Production
+.idea
 /build
 
 # Generated files
