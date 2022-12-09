@@ -34,6 +34,9 @@ function HomepageHeader() {
                 Get Started
               </Link>
             </div>
+            <br/>
+                <font color = "gray">The project is still under development and new features are coming soon.
+                  Therefore, we welcome anyone interested to join!</font>
           </div>
         </div>
       </div>

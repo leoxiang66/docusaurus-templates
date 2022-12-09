@@ -11,6 +11,7 @@ const config = {
     "Text2Music is a virtual composer that creates style-specific music based on user-defined prompts.",
   url: "https://nlp-guild.github.io",
   baseUrl: "/text2music",
+  // baseUrl:'/docusaurus-templates/build/index.html/',
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/logo.png",
@@ -110,10 +111,10 @@ const config = {
           {
             title: "More",
             items: [
-              {
-                label: "Blog",
-                to: "/blog"
-              },
+              // {
+              //   label: "Blog",
+              //   to: "/blog"
+              // },
               {
                 label: "GitHub",
                 href: "https://github.com/NLP-Guild/text2music"
