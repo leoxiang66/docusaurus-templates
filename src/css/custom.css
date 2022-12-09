@@ -1,0 +1,85 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #008dfb;
+  --ifm-color-primary-dark: #008dfb;
+  --ifm-color-primary-darker: #008dfb;
+  --ifm-color-primary-darkest: #008dfb;
+  --ifm-color-primary-light: #008dfb;
+  --ifm-color-primary-lighter: #008dfb;
+  --ifm-color-primary-lightest: #008dfb;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-heading-color: #000000;
+  /* --ifm-font-color-base-inverse: #555d76; */
+  --ifm-color-secondary: #f81d5b;
+  --mycolor_black: #181a21;
+}
+
+/* .hero {
+  align-items: center;
+  background-color: #ffffff;
+  color: var(--ifm-hero-text-color);
+  display: flex;
+  padding: 4rem 2rem;
+} */
+
+/* .hero--primary {
+  --ifm-hero-background-color: #ffffff;
+  --ifm-hero-text-color: var(--ifm-font-color-base-inverse);
+} */
+
+.hero__title {
+  font-size: 3rem;
+  color: #008dfb;
+}
+
+.hero__subtitle {
+  font-size: 1.5rem;
+  color: #555555;
+}
+
+.button.button--secondary {
+  color: #ffffff;
+  font-size: 22px;
+}
+
+.features_src-components-HomepageFeatures-styles-module {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  width: 100%;
+}
+
+[data-theme="light"] .hero--primary {
+  --ifm-hero-background-color: #ffffff;
+  --ifm-hero-text-color: var(--ifm-font-color-base-inverse);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme="dark"] {
+  --ifm-color-primary: #008dfb;
+  --ifm-color-primary-dark: #008dfb;
+  --ifm-color-primary-darker: #008dfb;
+  --ifm-color-primary-darkest: #008dfb;
+  --ifm-color-primary-light: #008dfb;
+  --ifm-color-primary-lighter: #008dfb;
+  --ifm-color-primary-lightest: #008dfb;
+  --ifm-heading-color: #ffffff;
+  --ifm-background-color: #181a21;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.hero--primary {
+  --ifm-hero-background-color: var(--mycolor_black);
+  --ifm-hero-text-color: var(--ifm-font-color-base-inverse);
+}
+
+html[data-theme="dark"] {
+  --ifm-background-color: #181a21;
+}
