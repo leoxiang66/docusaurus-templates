@@ -13,8 +13,8 @@ function HomepageHeader() {
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
         <div className={styles.row}>
-          <div className={styles.column}>
-            <img
+          <div  className={styles.column}>
+            <img id={styles.lc}
               src="https://nlp-guild.github.io/text2music/static/testlogo1-better.png"
               alt="Text2Music Virtual Figure"
               width="100%"
@@ -25,7 +25,7 @@ function HomepageHeader() {
             <h1 id={styles.rc_head} className="hero__title">
               {siteConfig.title}
             </h1>
-            <p className="hero__subtitle">{siteConfig.tagline}</p>
+            <p className={styles.hero__subtitle}>{siteConfig.tagline}</p>
             <div className={styles.buttons}>
               <Link
                 className="button button--secondary button--lg"

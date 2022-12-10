@@ -47,9 +47,40 @@
   clear: both;
 }
 
+.hero__subtitle {
+  color: #555;
+  font-size: 1.5rem;
+}
+
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 1030px) {
   .column {
     width: 100%;
+    padding: 1% 1% 1% 1%;
   }
+
+  #rc {
+    padding-top: 15px;
+    text-align: center;
+
+    /* width: 30%; */
+  }
+
+  #rc_head {
+    width: 100%;
+    text-align: center;
+    font-size: xx-large;
+  }
+
+  #lc{
+    width: 70%;
+    text-align: center;
+  }
+
+  .hero__subtitle {
+    font-size: large;
+    color: #555555;
+  }
+
+
 }
