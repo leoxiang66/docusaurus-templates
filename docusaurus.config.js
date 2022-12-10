@@ -76,6 +76,11 @@ const config = {
             href: "https://github.com/NLP-Guild/text2music",
             label: "GitHub",
             position: "right"
+          },
+          {
+            href: "https://github.com/orgs/NLP-Guild/projects/3",
+            label: "Roadmap",
+            position: "left"
           }
         ]
       },
