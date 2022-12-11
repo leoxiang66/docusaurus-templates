@@ -123,6 +123,10 @@ const config = {
               {
                 label: "GitHub",
                 href: "https://github.com/NLP-Guild/text2music"
+              },
+              {
+                label: "News",
+                to:"/news"
               }
             ]
           },
